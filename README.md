@@ -12,3 +12,6 @@ A atividade foi pensada para ser concluída em até 1h no laboratório, usando V
 - Nome: Gabriel Henrique de Souza Rodrigues
 - Matricula: 913558
 
+![Imagem Site](images/image1.png)
+![Imagem Site](images/image.png)
+![Imagem Mobile](images/image0.png)
