@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Central Commerce</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+  <header>
+    <h1>🛒 Central Commerce</h1>
+  </header>
+  <section class="controls">
+    <input id="search" type="text" placeholder="🔍 Buscar produto..." />
+    <select id="category">
+      <option value="Todas">Todas</option>
+    </select>
+    <button id="btnRender">🔄 Renderizar</button>
+  </section>
+  <main>
+    <div id="product-list"></div>
+    <aside id="product-details">
+      <p class="details-placeholder">Clique em "Ver detalhes" em um produto para exibir as informações aqui.</p>
+    </aside>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
